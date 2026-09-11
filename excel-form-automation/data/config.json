@@ -1,0 +1,39 @@
+{
+  "spreadsheet_path": "data/input_example.xlsx",
+  "header_row": 3,
+  "data_start_row": 4,
+  "highlight_color": "FFFF00",
+  "fields": [
+    "full_name",
+    "phone",
+    "email",
+    "document_id",
+    "notes"
+  ],
+  "targets": {
+    "LOC1": {
+      "url": "https://avensastudio.netlify.app/",
+      "field_selectors": {
+        "full_name": "input[placeholder='Seu nome completo']",
+        "phone": "input[placeholder='(00) 00000-0000']",
+        "email": "input[placeholder='voce@empresa.com']",
+        "document_id": "input[placeholder='Nome da sua empresa']",
+        "notes": "textarea"
+      },
+      "consent_checkbox_selector": null,
+      "submit_button_selector": "button[type='submit']"
+    },
+    "LOC2": {
+      "url": "https://avensastudio.netlify.app/",
+      "field_selectors": {
+        "full_name": "input[placeholder='Seu nome completo']",
+        "phone": "input[placeholder='(00) 00000-0000']",
+        "email": "input[placeholder='voce@empresa.com']",
+        "document_id": "input[placeholder='Nome da sua empresa']",
+        "notes": "textarea"
+      },
+      "consent_checkbox_selector": null,
+      "submit_button_selector": "button[type='submit']"
+    }
+  }
+}

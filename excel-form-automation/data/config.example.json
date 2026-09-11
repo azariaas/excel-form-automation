@@ -1,0 +1,33 @@
+{
+  "spreadsheet_path": "data/input_example.xlsx",
+  "header_row": 3,
+  "data_start_row": 4,
+  "highlight_color": "FFFF00",
+  "fields": ["full_name", "phone", "email", "document_id", "notes"],
+  "targets": {
+    "LOC1": {
+      "url": "https://example.com/location-1/contact-form",
+      "field_selectors": {
+        "full_name": "input[placeholder='Full Name']",
+        "phone": "input[placeholder='Phone']",
+        "email": "input[placeholder='Email']",
+        "document_id": "input[placeholder='Document ID']",
+        "notes": "textarea[placeholder='Notes']"
+      },
+      "consent_checkbox_selector": "input[type='checkbox']",
+      "submit_button_selector": "button[type='submit']"
+    },
+    "LOC2": {
+      "url": "https://example.com/location-2/contact-form",
+      "field_selectors": {
+        "full_name": "input[placeholder='Full Name']",
+        "phone": "input[placeholder='Phone']",
+        "email": "input[placeholder='Email']",
+        "document_id": "input[placeholder='Document ID']",
+        "notes": "textarea[placeholder='Notes']"
+      },
+      "consent_checkbox_selector": "input[type='checkbox']",
+      "submit_button_selector": "button[type='submit']"
+    }
+  }
+}
